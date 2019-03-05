@@ -33,13 +33,13 @@ export default class Home extends Component {
     render() {
         return (
             <div style={style}>
-            <Table 
-                loading={this.state.loading}
-                dataSource={this.state.data} 
-                columns={columns}
-                pagination={this.state.pagination}
-                onChange={this._handleTableChange}
-            />
+                <Table 
+                    loading={this.state.loading}
+                    dataSource={this.state.data} 
+                    columns={columns}
+                    pagination={this.state.pagination}
+                    onChange={this._handleTableChange}
+                />
             </div>
         )
     }

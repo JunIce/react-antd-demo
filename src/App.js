@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Button from 'antd/lib/button';
 import './App.css';
-import Home from './home'
+// import Home from './home'
+import Banner from './home/banner'
+
 
 class App extends Component {
 
@@ -17,7 +18,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Home />
+        <Banner />
       </div>
     );
   }
